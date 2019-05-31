@@ -7,7 +7,7 @@ echo "    #                https://pa.ci                 #"
 echo "    #                 Version 0.1                  #"
 echo "    ################################################"
 #download
-wget --no-check-certificate -O gv.py https://raw.githubusercontent.com/uselibrary/KeepMyGoogleVoice/master/gv.py && chmod +x gv.py
+wget --no-check-certificate -O gv.py https://raw.githubusercontent.com/veip007/KeepMyGoogleVoice/master/gv.py && chmod +x gv.py
 mv gv.py /root/
 #crontab
 echo -e ""
