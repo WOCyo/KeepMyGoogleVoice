@@ -31,7 +31,7 @@ voice.login(email='xxxxx@gmail.com', passwd='xxxxx')
 如果上述一脚脚本无法执行，可以手动安装。执行以下命令，手动输入Google账号和密码，并通过crontab将其设置为每月执行一次。
 
 ```
-wget --no-check-certificate -O gv.py https://raw.githubusercontent.com/uselibrary/KeepMyGoogleVoice/master/gv.py && chmod +x gv.py
+wget --no-check-certificate -O gv.py https://raw.githubusercontent.com/veip007/KeepMyGoogleVoice/master/gv.py && chmod +x gv.py
 ```
 
 并且，对于CentOS 7 执行以下命令
