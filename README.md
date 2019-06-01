@@ -37,8 +37,10 @@ wget --no-check-certificate -O gv.py https://raw.githubusercontent.com/veip007/K
 并且，对于CentOS 7 执行以下命令
 ```
 yum -y install epel-release
-yum -y install python python-pip
-pip install googlevoice
+yum -y install python36
+yum -y install python36-setuptools
+easy_install-3.6 pip
+pip3 install googlevoice
 ```
 
 对于Debian 9/Ubuntu 16.04+ 执行以下命令
