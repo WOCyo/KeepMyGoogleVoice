@@ -41,6 +41,7 @@ yum -y install python36
 yum -y install python36-setuptools
 easy_install-3.6 pip
 pip3 install googlevoice
+python3 gv.py
 ```
 
 对于Debian 9/Ubuntu 16.04+ 执行以下命令
